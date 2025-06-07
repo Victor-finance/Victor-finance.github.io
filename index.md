@@ -16,9 +16,6 @@ redirect_from:
 
   <p>My current research focuses on understanding how technological innovation, regulatory changes, and behavioral factors shape financial markets and corporate decision-making. I am particularly interested in the intersection of finance and technology, exploring how FinTech innovations are transforming traditional financial services.</p>
 
-  {% if site.author.bio %}
-  <p><strong>Bio:</strong> {{ site.author.bio }}</p>
-  {% endif %}
 </div>
 
 <div class="section" id="research">
