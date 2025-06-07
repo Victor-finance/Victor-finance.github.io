@@ -10,11 +10,15 @@ redirect_from:
 
 <div class="section" id="about">
   <h2>About</h2>
-  <p>I am a Professor of Finance at [University Name] Business School, where I conduct research on corporate finance, financial markets, and behavioral finance. My work has been published in leading academic journals and has influenced both academic discourse and industry practice.</p>
+  <p>I am {{ site.author.employer | default: "a Professor of Finance" }} at {{ site.author.location | default: "[University Name] Business School" }}, where I conduct research on corporate finance, financial markets, and behavioral finance. My work has been published in leading academic journals and has influenced both academic discourse and industry practice.</p>
   
-  <p>Prior to joining [University Name], I held positions at [Previous Institution] and worked as a consultant for several financial institutions. I received my Ph.D. in Finance from [University] and hold professional certifications including the CFA designation.</p>
+  <p>Prior to joining {{ site.author.location | split: ',' | first | default: "[University Name]" }}, I held positions at [Previous Institution] and worked as a consultant for several financial institutions. I received my Ph.D. in Finance from [University] and hold professional certifications including the CFA designation.</p>
 
   <p>My current research focuses on understanding how technological innovation, regulatory changes, and behavioral factors shape financial markets and corporate decision-making. I am particularly interested in the intersection of finance and technology, exploring how FinTech innovations are transforming traditional financial services.</p>
+
+  {% if site.author.bio %}
+  <p><strong>Bio:</strong> {{ site.author.bio }}</p>
+  {% endif %}
 </div>
 
 <div class="section" id="research">
@@ -43,6 +47,37 @@ redirect_from:
     <div class="research-card">
       <h4>International Finance</h4>
       <p>Cross-border capital flows, exchange rate dynamics, international portfolio diversification, and emerging market finance.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="contact-info">
+  <h2>Contact Information</h2>
+  <div class="contact-grid">
+    {% if site.author.email %}
+    <div class="contact-item">
+      <strong>📧 Email:</strong> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    </div>
+    {% endif %}
+    
+    {% if site.author.phone %}
+    <div class="contact-item">
+      <strong>📞 Phone:</strong> {{ site.author.phone }}
+    </div>
+    {% endif %}
+    
+    {% if site.author.office %}
+    <div class="contact-item">
+      <strong>🏢 Office:</strong> {{ site.author.office }}
+    </div>
+    {% endif %}
+    
+    <div class="contact-item">
+      <strong>🎓 Academic Profiles:</strong><br>
+      {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>{% endif %}
+      {% if site.author.orcid %} | <a href="{{ site.author.orcid }}" target="_blank">ORCID</a>{% endif %}
+      {% if site.author.researchgate %} | <a href="{{ site.author.researchgate }}" target="_blank">ResearchGate</a>{% endif %}
+      {% if site.author.ssrn %} | <a href="{{ site.author.ssrn }}" target="_blank">SSRN</a>{% endif %}
     </div>
   </div>
 </div>
@@ -111,9 +146,39 @@ redirect_from:
   line-height: 1.6;
 }
 
+/* 联系信息网格 */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.contact-item {
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #0ea5e9;
+}
+
+.contact-item strong {
+  color: #1e3a8a;
+}
+
+.contact-item a {
+  color: #0ea5e9;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
-  .research-grid {
+  .research-grid,
+  .contact-grid {
     grid-template-columns: 1fr;
   }
 }
