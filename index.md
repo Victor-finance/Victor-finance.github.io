@@ -51,10 +51,6 @@ redirect_from:
   </div>
 </div>
 
-
-
-
-
 <style>
 /* 研究兴趣网格 */
 .research-grid {
