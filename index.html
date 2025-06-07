@@ -1,0 +1,482 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.author.name | default: "Dr. Xingjian Wang" }} - {{ site.author.employer | default: "Professor of Finance" }}</title>
+    <meta name="description" content="Academic website of {{ site.author.name | default: "Dr. Xingjian Wang" }}, {{ site.author.employer | default: "Professor of Finance" }}">
+    <meta name="author" content="{{ site.author.name | default: "Dr. Xingjian Wang" }}">
+    
+    <style>
+        :root {
+            --primary-color: #a71a3d;
+            --primary-light: #dc2f5a;
+            --primary-dark: #7a1329;
+            --secondary-color: #64748b;
+            --accent-color: #f56565;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --background-light: #fef7f7;
+            --border-color: #fed7d7;
+            --success-color: #10b981;
+            --card-shadow: 0 4px 6px -1px rgba(167, 26, 61, 0.1);
+            --card-shadow-hover: 0 10px 15px -3px rgba(167, 26, 61, 0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: #f8fafc;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #a71a3d 0%, #dc2f5a 50%, #7a1329 100%);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            box-shadow: var(--card-shadow);
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 2.5rem;
+        }
+        
+        .profile-photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: white;
+            flex-shrink: 0;
+            box-shadow: var(--card-shadow-hover);
+        }
+        
+        .header-text h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            color: white;
+        }
+        
+        .title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 500;
+        }
+        
+        .contact-info {
+            margin-top: 1.5rem;
+        }
+        
+        .contact-info div {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .contact-info a {
+            color: rgba(255, 255, 255, 0.95);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Navigation */
+        nav {
+            background: linear-gradient(135deg, #a71a3d 0%, #dc2f5a 50%, #7a1329 100%);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--card-shadow);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            padding: 0.75rem 1.5rem;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        nav a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            transition: left 0.3s ease;
+            z-index: -1;
+        }
+
+        nav a:hover::before {
+            left: 0;
+        }
+
+        nav a:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--card-shadow);
+        }
+
+        /* Main Content */
+        main {
+            background: white;
+            border-radius: 20px;
+            margin: 2rem auto;
+            padding: 3rem;
+            box-shadow: var(--card-shadow-hover);
+            position: relative;
+            overflow: hidden;
+            border: 3px solid var(--primary-color);
+        }
+
+        main::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+        }
+        
+        .section {
+            margin-bottom: 4rem;
+        }
+        
+        .section h2 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 700;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            border-radius: 2px;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+        }
+
+        /* Research Interests Grid */
+        .research-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .research-card {
+            background: linear-gradient(135deg, #f8fafc, #ffffff);
+            padding: 2rem;
+            border-radius: 16px;
+            border-left: 4px solid #a71a3d;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .research-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(167, 26, 61, 0.02), rgba(220, 47, 90, 0.02));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .research-card:hover::before {
+            opacity: 1;
+        }
+
+        .research-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .research-card h4 {
+            color: #a71a3d;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .research-card p {
+            color: #64748b;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, var(--text-dark), #374151);
+            color: white;
+            text-align: center;
+            padding: 3rem 0;
+            margin-top: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+        }
+
+        footer p {
+            margin-bottom: 0.5rem;
+            opacity: 0.9;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .profile-photo {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .header-text h1 {
+                font-size: 2rem;
+            }
+            
+            nav ul {
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+
+            nav a {
+                padding: 0.5rem 1rem;
+                font-size: 0.9rem;
+            }
+            
+            .research-grid {
+                grid-template-columns: 1fr;
+            }
+
+            main {
+                margin: 1rem;
+                padding: 2rem;
+                border-radius: 16px;
+            }
+
+            .section h2 {
+                font-size: 1.6rem;
+            }
+        }
+
+        /* Smooth scroll behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Focus states for accessibility */
+        nav a:focus {
+            outline: 2px solid rgba(255, 255, 255, 0.5);
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-photo">
+                    {% if site.author.avatar %}
+                        <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+                    {% else %}
+                        Professional Photo
+                    {% endif %}
+                </div>
+                <div class="header-text">
+                    <h1>{{ site.author.name | default: "Dr. Xingjian Wang" }}</h1>
+                    <div class="title">{{ site.author.employer | default: "Professor of Finance" }}</div>
+                    <div class="title">{{ site.author.location | default: "[University Name] Business School" }}</div>
+                    <div class="contact-info">
+                        {% if site.author.email %}
+                        <div>📧 <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
+                        {% endif %}
+                        {% if site.author.phone %}
+                        <div>📞 {{ site.author.phone }}</div>
+                        {% endif %}
+                        {% if site.author.office %}
+                        <div>🏢 Office: {{ site.author.office }}</div>
+                        {% endif %}
+                        <div>🎓 
+                            {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>{% endif %}
+                            {% if site.author.ssrn %}{% if site.author.googlescholar %} | {% endif %}<a href="{{ site.author.ssrn }}" target="_blank">SSRN</a>{% endif %}
+                            {% if site.author.researchgate %}{% if site.author.googlescholar or site.author.ssrn %} | {% endif %}<a href="{{ site.author.researchgate }}" target="_blank">ResearchGate</a>{% endif %}
+                            {% if site.author.orcid %}{% if site.author.googlescholar or site.author.ssrn or site.author.researchgate %} | {% endif %}<a href="{{ site.author.orcid }}" target="_blank">ORCID</a>{% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="/teaching/">Teaching</a></li>
+                <li><a href="/files/cv.pdf" target="_blank">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="about" class="section">
+            <h2>About</h2>
+            <p>I am a Professor of Finance at [University Name] Business School, where I conduct research on corporate finance, financial markets, and behavioral finance. My work has been published in leading academic journals and has influenced both academic discourse and industry practice.</p>
+            
+            <p>Prior to joining [University Name], I held positions at [Previous Institution] and worked as a consultant for several financial institutions. I received my Ph.D. in Finance from [University] and hold professional certifications including the CFA designation.</p>
+
+            <p>My current research focuses on understanding how technological innovation, regulatory changes, and behavioral factors shape financial markets and corporate decision-making. I am particularly interested in the intersection of finance and technology, exploring how FinTech innovations are transforming traditional financial services.</p>
+        </section>
+
+        <section id="research" class="section">
+            <h2>Research Interests</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <h4>Corporate Finance</h4>
+                    <p>Capital structure optimization, dividend policy analysis, mergers and acquisitions strategy, and corporate governance mechanisms in modern markets.</p>
+                </div>
+                <div class="research-card">
+                    <h4>Financial Markets</h4>
+                    <p>Market microstructure dynamics, asset pricing models, market efficiency testing, and the impact of algorithmic trading on market quality.</p>
+                </div>
+                <div class="research-card">
+                    <h4>Behavioral Finance</h4>
+                    <p>Investor psychology and decision-making biases, market anomalies, sentiment analysis, and the role of emotions in financial markets.</p>
+                </div>
+                <div class="research-card">
+                    <h4>Financial Technology</h4>
+                    <p>FinTech innovation impact, digital banking transformation, cryptocurrency markets, and blockchain applications in traditional finance.</p>
+                </div>
+                <div class="research-card">
+                    <h4>Sustainable Finance</h4>
+                    <p>ESG investing strategies, climate risk assessment in financial markets, and the economics of sustainable business models.</p>
+                </div>
+                <div class="research-card">
+                    <h4>International Finance</h4>
+                    <p>Cross-border capital flows, exchange rate dynamics, international portfolio diversification, and emerging market finance.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name | default: "Dr. Xingjian Wang" }}. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">
+                Built with modern web technologies | Hosted on GitHub Pages
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Highlight current section in navigation
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('.section');
+            const navLinks = document.querySelectorAll('nav a[href^="#"]');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 200;
+                if (scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.style.background = '';
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.style.background = 'rgba(255, 255, 255, 0.2)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
