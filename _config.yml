@@ -1,12 +1,12 @@
 # 网站基本信息
-title: "Dr. [Your Name]"
+title: "Dr. Xingjian Wang"
 description: "Professor of Finance specializing in corporate finance and behavioral finance"
 url: "https://yourusername.github.io"
 repository: "yourusername/yourusername.github.io"
 
 # 作者信息
 author:
-  name: "Dr. [Your Name]"
+  name: "Dr. Xingjian Wang"
   avatar: "/images/profile-pic.jpg"
   bio: "Professor of Finance at [University Name] Business School"
   location: "[University Name], [City]"
