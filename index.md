@@ -51,36 +51,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="section" id="contact-info">
-  <h2>Contact Information</h2>
-  <div class="contact-grid">
-    {% if site.author.email %}
-    <div class="contact-item">
-      <strong>📧 Email:</strong> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-    </div>
-    {% endif %}
-    
-    {% if site.author.phone %}
-    <div class="contact-item">
-      <strong>📞 Phone:</strong> {{ site.author.phone }}
-    </div>
-    {% endif %}
-    
-    {% if site.author.office %}
-    <div class="contact-item">
-      <strong>🏢 Office:</strong> {{ site.author.office }}
-    </div>
-    {% endif %}
-    
-    <div class="contact-item">
-      <strong>🎓 Academic Profiles:</strong><br>
-      {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>{% endif %}
-      {% if site.author.orcid %} | <a href="{{ site.author.orcid }}" target="_blank">ORCID</a>{% endif %}
-      {% if site.author.researchgate %} | <a href="{{ site.author.researchgate }}" target="_blank">ResearchGate</a>{% endif %}
-      {% if site.author.ssrn %} | <a href="{{ site.author.ssrn }}" target="_blank">SSRN</a>{% endif %}
-    </div>
-  </div>
-</div>
+
 
 
 
