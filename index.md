@@ -105,7 +105,7 @@ redirect_from:
   background: linear-gradient(135deg, #f8fafc, #ffffff);
   padding: 2rem;
   border-radius: 16px;
-  border-left: 4px solid #1e3a8a;
+  border-left: 4px solid #a71a3d;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   position: relative;
@@ -119,7 +119,7 @@ redirect_from:
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(30, 58, 138, 0.02), rgba(59, 130, 246, 0.02));
+  background: linear-gradient(135deg, rgba(167, 26, 61, 0.02), rgba(220, 47, 90, 0.02));
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -134,7 +134,7 @@ redirect_from:
 }
 
 .research-card h4 {
-  color: #1e3a8a;
+  color: #a71a3d;
   margin-bottom: 1rem;
   font-size: 1.2rem;
   font-weight: 600;
@@ -158,15 +158,15 @@ redirect_from:
   background: #f8fafc;
   padding: 1.5rem;
   border-radius: 12px;
-  border-left: 4px solid #0ea5e9;
+  border-left: 4px solid #dc2f5a;
 }
 
 .contact-item strong {
-  color: #1e3a8a;
+  color: #a71a3d;
 }
 
 .contact-item a {
-  color: #0ea5e9;
+  color: #dc2f5a;
   text-decoration: none;
   font-weight: 500;
 }
