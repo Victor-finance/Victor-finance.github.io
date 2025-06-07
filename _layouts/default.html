@@ -1,15 +1,11 @@
----
-layout: default
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title | default: site.github.repository_name }}</title>
-    <meta name="description" content="{{ site.description | default: site.github.project_tagline }}">
-    <meta name="author" content="{{ site.author.name }}">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{% if site.author.name %}{{ site.author.name }}{% else %}Dr. Xingjian Wang{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="author" content="{% if site.author.name %}{{ site.author.name }}{% else %}Dr. Xingjian Wang{% endif %}">
     
     <style>
         :root {
@@ -108,6 +104,41 @@ layout: default
             font-weight: 500;
         }
 
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Navigation */
+        nav {
+            background: linear-gradient(135deg, #a71a3d 0%, #dc2f5a 50%, #7a1329 100%);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--card-shadow);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            padding: 0.75rem 1.5rem;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
         /* Main Content */
         main {
             background: white;
@@ -115,6 +146,9 @@ layout: default
             margin: 2rem auto;
             padding: 3rem;
             box-shadow: var(--card-shadow-hover);
+            position: relative;
+            overflow: hidden;
+            border: 3px solid var(--primary-color);
         }
 
         main::before {
@@ -131,6 +165,7 @@ layout: default
             margin-bottom: 4rem;
         }
         
+        .section h1,
         .section h2 {
             color: var(--primary-color);
             font-size: 2rem;
@@ -140,6 +175,7 @@ layout: default
             padding-bottom: 1rem;
         }
 
+        .section h1::after,
         .section h2::after {
             content: '';
             position: absolute;
@@ -151,7 +187,88 @@ layout: default
             border-radius: 2px;
         }
 
-        /* Responsive */
+        .section h3 {
+            color: var(--text-dark);
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            margin-top: 2.5rem;
+            font-weight: 600;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+        }
+
+        .section ul {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section li {
+            margin-bottom: 0.5rem;
+            color: var(--text-light);
+        }
+
+        /* Links */
+        .section a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .section a:hover {
+            text-decoration: underline;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background: var(--background-light);
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, var(--text-dark), #374151);
+            color: white;
+            text-align: center;
+            padding: 3rem 0;
+            margin-top: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+        }
+
+        footer p {
+            margin-bottom: 0.5rem;
+            opacity: 0.9;
+        }
+
+        /* Responsive Design */
         @media (max-width: 768px) {
             .header-content {
                 flex-direction: column;
@@ -167,10 +284,37 @@ layout: default
                 font-size: 2rem;
             }
             
+            nav ul {
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+
+            nav a {
+                padding: 0.5rem 1rem;
+                font-size: 0.9rem;
+            }
+
             main {
                 margin: 1rem;
                 padding: 2rem;
+                border-radius: 16px;
             }
+
+            .section h1,
+            .section h2 {
+                font-size: 1.6rem;
+            }
+        }
+
+        /* Smooth scroll behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Focus states for accessibility */
+        nav a:focus {
+            outline: 2px solid rgba(255, 255, 255, 0.5);
+            outline-offset: 2px;
         }
     </style>
 </head>
@@ -186,9 +330,9 @@ layout: default
                     {% endif %}
                 </div>
                 <div class="header-text">
-                    <h1>{{ site.author.name | default: "Dr. Your Name" }}</h1>
-                    <div class="title">{{ site.author.employer | default: "Professor of Finance" }}</div>
-                    <div class="title">{{ site.author.location | default: "University Name" }}</div>
+                    <h1>{% if site.author.name %}{{ site.author.name }}{% else %}Dr. Xingjian Wang{% endif %}</h1>
+                    <div class="title">{% if site.author.employer %}{{ site.author.employer }}{% else %}Assistant Professor{% endif %}</div>
+                    <div class="title">{% if site.author.location %}{{ site.author.location }}{% else %}Capital University of Economics and Business, Beijing{% endif %}</div>
                     <div class="contact-info">
                         {% if site.author.email %}
                         <div>📧 <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
@@ -197,13 +341,13 @@ layout: default
                         <div>📞 {{ site.author.phone }}</div>
                         {% endif %}
                         {% if site.author.office %}
-                        <div>🏢 {{ site.author.office }}</div>
+                        <div>🏢 Office: {{ site.author.office }}</div>
                         {% endif %}
                         <div>🎓 
-                            {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a> | {% endif %}
-                            {% if site.author.ssrn %}<a href="{{ site.author.ssrn }}" target="_blank">SSRN</a> | {% endif %}
-                            {% if site.author.researchgate %}<a href="{{ site.author.researchgate }}" target="_blank">ResearchGate</a> | {% endif %}
-                            {% if site.author.orcid %}<a href="{{ site.author.orcid }}" target="_blank">ORCID</a>{% endif %}
+                            {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>{% endif %}
+                            {% if site.author.ssrn %}{% if site.author.googlescholar %} | {% endif %}<a href="{{ site.author.ssrn }}" target="_blank">SSRN</a>{% endif %}
+                            {% if site.author.researchgate %}{% if site.author.googlescholar or site.author.ssrn %} | {% endif %}<a href="{{ site.author.researchgate }}" target="_blank">ResearchGate</a>{% endif %}
+                            {% if site.author.orcid %}{% if site.author.googlescholar or site.author.ssrn or site.author.researchgate %} | {% endif %}<a href="{{ site.author.orcid }}" target="_blank">ORCID</a>{% endif %}
                         </div>
                     </div>
                 </div>
@@ -211,17 +355,44 @@ layout: default
         </div>
     </header>
 
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="/">About</a></li>
+                <li><a href="/research/">Research</a></li>
+                <li><a href="/teaching/">Teaching</a></li>
+                <li><a href="/files/cv.pdf" target="_blank">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <main class="container">
         {{ content }}
     </main>
 
-    <footer style="background: linear-gradient(135deg, var(--text-dark), #374151); color: white; text-align: center; padding: 3rem 0; margin-top: 3rem;">
+    <footer>
         <div class="container">
-            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name | default: "Dr. Your Name" }}. All rights reserved.</p>
+            <p>&copy; {{ 'now' | date: "%Y" }} {% if site.author.name %}{{ site.author.name }}{% else %}Dr. Xingjian Wang{% endif %}. All rights reserved.</p>
             <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">
-                Built with Jekyll and GitHub Pages
+                Built with modern web technologies | Hosted on GitHub Pages
             </p>
         </div>
     </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
