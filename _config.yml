@@ -20,7 +20,7 @@ author:
   researchgate: "https://www.researchgate.net/profile/Xingjian-Wang-6?ev=hdr_xprf"
   ssrn: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3063084"
 
-  
+
 # 导航菜单设置
 navigation:
   - title: "About"
@@ -69,41 +69,41 @@ include: ["_pages"]
 
 # 默认设置
 defaults:
-  # _pages
+  # 所有页面都使用我们的自定义布局
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout: default
+      author_profile: false
   # _publications
   - scope:
       path: ""
       type: publications
     values:
-      layout: single
-      author_profile: true
-      read_time: true
+      layout: default
+      author_profile: false
+      read_time: false
       comments: false
-      share: true
-      related: true
+      share: false
+      related: false
   # _talks
   - scope:
       path: ""
       type: talks
     values:
-      layout: talk
-      author_profile: true
-      share: true
+      layout: default
+      author_profile: false
+      share: false
       comments: false
   # _teaching
   - scope:
       path: ""
       type: teaching
     values:
-      layout: single
-      author_profile: true
-      share: true
+      layout: default
+      author_profile: false
+      share: false
       comments: false
 
 # SEO 设置
