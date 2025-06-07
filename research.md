@@ -2,66 +2,7 @@
 layout: single
 title: "Research"
 permalink: /research/
-author_profile: false
 ---
-
-# Research Overview
-
-My research focuses on understanding the complex dynamics of modern financial markets and corporate decision-making. I employ both theoretical modeling and empirical analysis to investigate how technological innovation, regulatory changes, and behavioral factors shape financial outcomes.
-
-## Research Interests
-
-### Corporate Finance
-My work in corporate finance focuses on how firms make capital allocation decisions under uncertainty and information asymmetries.
-
-**Key Areas**:
-- Capital structure optimization in the digital age
-- Dividend policy and investor preferences  
-- Mergers and acquisitions strategy
-- Corporate governance mechanisms
-
-### Financial Markets
-I investigate market microstructure, price discovery mechanisms, and the impact of technology on trading.
-
-**Research Questions**:
-- How do algorithmic trading strategies affect market liquidity?
-- What is the role of social media in price discovery?
-- How do regulatory changes impact market efficiency?
-
-### Behavioral Finance
-My behavioral finance research examines how psychological biases affect investment decisions and market outcomes.
-
-**Focus Areas**:
-- Investor attention and asset prices
-- Herding behavior in institutional investing
-- The role of emotions in financial decision-making
-
-### Financial Technology
-I explore how technological innovations are transforming traditional financial services and creating new market dynamics.
-
-**Current Topics**:
-- FinTech innovation and banking competition
-- Cryptocurrency markets and regulation
-- AI applications in investment management
-
-### Sustainable Finance
-My research investigates the integration of environmental, social, and governance factors into financial decision-making.
-
-**Research Areas**:
-- ESG factors in credit risk assessment
-- Climate risk and corporate valuation
-- Sustainable investing strategies
-
-### International Finance
-I examine cross-border financial flows and the integration of global financial markets.
-
-**Key Interests**:
-- Exchange rate dynamics
-- International portfolio diversification
-- Emerging market finance
-
----
-
 ## Publications
 
 ### Peer-Reviewed Journal Articles
