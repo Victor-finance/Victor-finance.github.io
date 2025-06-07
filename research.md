@@ -8,158 +8,65 @@ permalink: /research/
 
 ### Peer-Reviewed Journal Articles
 
-**2024**
-- **"Corporate Investment Decisions and Market Sentiment: Evidence from Earnings Calls"** (with Co-author Name)  
-  *Journal of Finance*, 79(2), 123-156  
-  This paper examines how market sentiment affects corporate investment decisions using natural language processing and comprehensive earnings call data.
-  [PDF] [SSRN] [Data & Code]
+- **"Monetary Policy Uncertainty and Corporate Cash Holdings: Evidence from China"** (with [Haozhe Han](https://come.tju.edu.cn/info/1091/7801.htm))  
+  *Journal of Financial Stability*, 2023, 67:101138.  
+  We empirically explore the effect of monetary policy uncertainty on corporate cash holdings in China, and find robust evidence that monetary policy uncertainty is positively related to corporate cash holdings. The firms’ precautionary behavior in cash holdings is chiefly attributed to the increase in financial frictions rather than the reduction in corporate investments. Our study suggests that firms hold more cash to cushion potential liquidity shortfalls induced by the increase in monetary policy uncertainty.
+ [Journal Link](https://www.sciencedirect.com/science/article/pii/S1572308923000384) [SSRN](https://ssrn.com/abstract=4463877)
 
-- **"FinTech Innovation and Banking Competition"** (with Co-author 1 and Co-author 2)  
-  *Journal of Financial Economics*, 152, 45-67  
-  We analyze how financial technology companies affect traditional banking institutions using proprietary data from multiple countries.
-  [PDF] [Online Appendix] [Slides]
-
-**2023**
-- **"The Role of ESG Factors in Credit Risk Assessment"** (with Co-author A, Co-author B, and Co-author C)  
-  *Review of Financial Studies*, 36(8), 2847-2891  
-  We develop a machine learning framework to incorporate ESG factors into credit risk models, improving default prediction accuracy.
-  [PDF] [Replication Code] [Presentation Video]
-
-- **"Machine Learning in Portfolio Management: Evidence from Mutual Funds"**  
-  *Journal of Financial Economics*, 147(1), 45-72  
-  This study analyzes the adoption and performance impact of machine learning techniques in active portfolio management.
-  [PDF] [SSRN]
-
-**2022**
-- **"Behavioral Biases in Corporate Investment"** (with Co-author Name)  
-  *Review of Finance*, 26(4), 891-924  
-  We examine how CEO overconfidence and other behavioral biases affect corporate investment efficiency.
-  [PDF] [Working Paper Version]
-
-- **"Climate Risk and Firm Valuation"**  
-  *Journal of Banking & Finance*, 134, 106-118  
-  This paper investigates how climate-related risks affect firm valuation across different industries.
-  [PDF] [Data]
+- **"Pandemic Effect on Corporate Financial Asset Holdings: Precautionary or Return-chasing?"** (with [Haoyu Gao](http://sf.ruc.edu.cn/info/1419/9668.htm) and [Huiyu Wen](https://glxy.gdut.edu.cn/info/1292/29774.htm))  
+  *Research in International Business and Finance*, 2022, 62:101750.  
+  We empirically investigate whether and how the COVID-19 pandemic affects corporate financial asset holdings. We find that firms with higher pandemic exposure are less likely to hold financial assets. Mechanism analyses suggest that the return-chasing rationale dominates the precautionary motive concerning the pandemic effect on corporate financial asset holdings. Furthermore, firms prefer to liquidate highly liquid financial assets to fill the pandemic-induced liquidity shortage. This study contributes to the economic consequences of the COVID-19 pandemic regarding corporate portfolio choice, and sheds light on corporate resilience to crises.
+ [Journal Link]([https://www.sciencedirect.com/science/article/pii/S1572308923000384](https://www.sciencedirect.com/science/article/pii/S0275531922001374)) [SSRN](https://ssrn.com/abstract=4144122)
 
 ---
 
 ## Working Papers
 
-### Under Review
+**"Dialect Diversity, Uncertainty and Corporate Investment Efficiency"** (with Lingtian Bu and [Meng Miao](http://sf.ruc.edu.cn/jszy/mm/index.htm))  
+*Revise & Resubmit at International Review of Finance* <!-- -->  
+This study empirically investigates the impact of dialect diversity on corporate investment efficiency under different levels of economic policy uncertainty. Our findings reveal that local dialect diversity enhances investment efficiency during stable periods, but this advantage significantly diminishes under high economic policy uncertainty. This reduction primarily arises from underinvestment and overly cautious decision-making by fragmented management during periods of turmoil. Further analysis reveals that this reduction is exacerbated by stronger internal governance, which emphasizes checks and balances, and mitigated by stronger external governance, which focuses on supervisory power. Our results remain robust when using alternative measures of main variables and employing topography as an instrumental variable.
+[SSRN](https://ssrn.com/abstract=4910535)
 
-**"Social Media Sentiment and Stock Returns"** (with Co-author Name)  
-*Revise & Resubmit at Journal of Finance*  
-We examine how social media sentiment affects stock prices using machine learning techniques to analyze millions of posts.
-[SSRN] [Slides]
+**"The Political Economy of ESG: How Government Procurement Shapes Corporate Sustainability in China "** (with [Huoqing Tang](https://cz.cueb.edu.cn/szdw/swx/146301.htm) and [Guangshun Zhu](https://sbf.uibe.edu.cn/szdw/xyjs/jszc/4fea26058ab541eaa8d8795c05a8dfcd.htm))  
+*Submitted at China Economic Review*   <!-- --> 
+This paper investigates the role of government-enterprise collusion in shaping firms’ ESG performance. Based on the sample of China’s A-share listed firms from 2015 to 2022, we find that same-city government procurements significantly improve firms’ ESG performance, while government procurements awarded by non-local governments show no significant effect on ESG outcomes. We propose and empirically validate an explanation that local governments strategically use government procurement projects to incentivize firms’ ESG actions. The positive effect of local government procurements on corporate ESG performance is more pronounced in the cities with lower fiscal pressure or a long-tenured mayor. Additional analyses demonstrate that these effects are particularly pronounced among privately-owned enterprises rather than state-owned enterprises, with environmental and governance dimensions showing the strongest responses. This study suggests that government-enterprise collusion represents a profound yet previously underexplored motivation for firms’ ESG activities, particularly in emerging economies where governments play a pivotal role in shaping institutional and economic frameworks.
 
-**"Corporate Governance and ESG Performance"** (with Co-author A and Co-author B)  
-*Under Review at Review of Financial Studies*  
-This paper investigates the relationship between board characteristics and environmental, social, and governance performance.
-[SSRN] [Conference Presentation]
 
-### Work in Progress
+---
 
-**"Cryptocurrency Adoption and Financial Inclusion"**  
-*Target: Journal of Finance*  
-We analyze how cryptocurrency adoption affects financial inclusion in developing countries using survey and transaction data.
+## Work in Progress
+
+**"Monetary Policy Uncertainty and Corporate Trade Credit"** (with [Haozhe Han](https://come.tju.edu.cn/info/1091/7801.htm) and [Chi Yao]([https://sbf.uibe.edu.cn/szdw/xyjs/jszc/4fea26058ab541eaa8d8795c05a8dfcd.htm](https://www.suibe.edu.cn/finance/yc/list.htm)))  
 [Draft Available Upon Request]
 
-**"AI in Investment Management: Opportunities and Risks"** (with Co-author Name)  
-*Target: Review of Financial Studies*  
-This project examines the impact of artificial intelligence on investment management practices and market outcomes.
+**"Digital Transformation and the Value of Cash"** (with Yubing Xuan and [Teng Zhong](https://sbf.uibe.edu.cn/szdw/xyjs/fjszc/a3139c035ed84961a9c3caa0d90eec3a.htm))  
 
-**"Cross-Border Mergers and Cultural Distance"** (with International Co-author)  
-*Target: Journal of Financial Economics*  
-We investigate how cultural differences affect the success of international mergers and acquisitions.
+**"The Horizontal Agency Conflicts and Corporate Cash Holdings: Evidence from Share Pledges in China"** (with [Changyun Wang](http://sf.ruc.edu.cn/info/1269/8125.htm) and Jianyu Zeng)  
 
----
+**"Manager Sentiment and Corporate Capital Allocation"** (with Xiaoming Liu and [Changyun Wang](http://sf.ruc.edu.cn/info/1269/8125.htm))  
 
-## Current Research Projects
+**"Do Local Human Capital Policies Affect Venture Capital Investments? Evidence from Search Engines in China"** (with Zelin Xu and [Teng Zhong](https://sbf.uibe.edu.cn/szdw/xyjs/fjszc/a3139c035ed84961a9c3caa0d90eec3a.htm))  
 
-### 1. FinTech Innovation and Traditional Banking
-**Status**: Data Analysis Phase  
-**Funding**: NSF Grant #1234567 ($180,000)  
-**Timeline**: Submit to Journal of Finance by March 2025
+**"Housing Price Expectations and Community Participation: Evidence from Urban China"** (with [Meng Miao](http://sf.ruc.edu.cn/jszy/mm/index.htm))  
+[Accepted by APSA2025]
 
-This project examines how the rise of financial technology companies affects traditional banking institutions using proprietary data from multiple countries.
+**"Grassroot Election and Democratic Attitude: Evidence based on China Homeowner Association"** (with [Meng Miao](http://sf.ruc.edu.cn/jszy/mm/index.htm))  
+[Accepted by APSA2025]
 
-### 2. ESG Factors in Credit Risk Assessment  
-**Status**: Revisions in Progress  
-**Collaborators**: Prof. [Name], Prof. [Name]  
-**Target Journal**: Review of Financial Studies
-
-We develop advanced machine learning frameworks to incorporate environmental, social, and governance factors into credit risk models.
-
-### 3. Market Sentiment and Corporate Investment
-**Status**: Data Collection  
-**Timeline**: Conference Presentation at AFA 2025
-
-Using natural language processing to analyze earnings call transcripts and their impact on corporate investment decisions.
+**"Voting for Value: The Impact of Grassroots Democracy on Housing Prices in Urban China"** (with Lingtian Bu and [Meng Miao](http://sf.ruc.edu.cn/jszy/mm/index.htm))  
+[Accepted by APSA2025]
 
 ---
 
-## Research Methods & Data
+## Conference Presentations and Discussions   <!-- --> 
 
-### Methodological Expertise
-- **Econometric Techniques**: Panel data analysis, instrumental variables, difference-in-differences
-- **Machine Learning**: Random forests, neural networks, natural language processing
-- **Experimental Methods**: Laboratory and field experiments
-- **Behavioral Analysis**: Survey design and behavioral modeling
+- **American Finance Association Annual Meeting** (2024, 2023, 2022)   <!-- --> 
 
-### Data Sources
-- **Corporate Finance**: Compustat, CRSP, ExecuComp
-- **Market Data**: TAQ, TRACE, Thomson Reuters
-- **Alternative Data**: Social media, satellite imagery, news sentiment
-- **Survey Data**: Custom surveys of investors and financial professionals
 
----
 
-## Funding and Awards
+## Funding and Awards <!-- -->
 
-### Current Grants
-- **National Science Foundation** - "ESG Factors in Financial Markets" (2023-2026): $180,000
-- **University Research Grant** - "FinTech and Financial Stability" (2024-2025): $50,000
 
-### Past Funding
-- **Young Investigator Award** - Financial Management Association (2022): $25,000
-- **Internal Research Grant** - [University Name] (2021-2023): $75,000
 
-### Research Awards
-- **Best Paper Award** - Western Finance Association (2022)
-- **Outstanding Research Award** - [University Name] (2021)
-- **Young Scholar Award** - Financial Management Association (2020)
 
----
 
-## Conference Presentations
-
-### Recent Conferences
-- **American Finance Association Annual Meeting** (2024, 2023, 2022)
-- **Western Finance Association Conference** (2024, 2023)
-- **European Finance Association Annual Meeting** (2023)
-- **Financial Management Association Annual Meeting** (2024, 2022, 2021)
-
-### Invited Seminars
-- Harvard Business School (2024)
-- Stanford Graduate School of Business (2023)
-- Wharton School, University of Pennsylvania (2023)
-- London Business School (2022)
-
----
-
-## Research Resources
-
-### Code and Data Availability
-I am committed to research transparency and reproducibility. Replication materials for published papers are available on my GitHub repository.
-
-- **GitHub**: [github.com/xingjianwang/research](https://github.com/xingjianwang/research)
-- **SSRN Profile**: [papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1234567](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1234567)
-- **Google Scholar**: [scholar.google.com/citations?user=XXXXX](https://scholar.google.com/citations?user=XXXXX)
-
-### Collaboration Opportunities
-I welcome collaboration with researchers who share similar interests, particularly in:
-- Cross-disciplinary projects combining finance with technology
-- International comparative studies
-- Behavioral experiments in financial decision-making
-
-For research collaboration inquiries, please contact me at [email] with "Research Collaboration" in the subject line.
