@@ -8,23 +8,20 @@ repository: "Victor-finance/Victor-finance.github.io"
 author:
   name: "Dr. Xingjian Wang"
   avatar: "/images/profile-pic.jpg"
-  bio: "Assistant Professor at Capital University of Economics and Business"
-  location: "Beijing, China"
-  employer: "Assistant Professor"
-  email: "your.email@university.edu"
-  phone: "+1 (xxx) xxx-xxxx"
-  office: "Building Name, Room XXX"
+  bio: "Assistant Professor at College of Business Administration, Capital University of Economics and Business"
+  location: "Capital University of Economics and Business, Beijing"
+  employer: "Assistant Professor at College of Business Administration, Capital University of Economics and Business"
+  email: "wxj_finance@outlook.com"
+
   
   # 学术社交链接
-  googlescholar: "https://scholar.google.com/citations?user=YOUR_ID"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-  researchgate: "https://www.researchgate.net/profile/YOUR_PROFILE"
-  ssrn: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=YOUR_ID"
+  googlescholar: "https://scholar.google.com/citations?hl=zh-CN&user=YvSEvQsAAAAJ"
+  orcid: "https://orcid.org/0000-0002-8368-5150"
+  researchgate: "https://www.researchgate.net/profile/Xingjian-Wang-6?ev=hdr_xprf"
+  ssrn: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3063084"
+
   
-  # 社交媒体（可选）
-  twitter: "yourtwitterhandle"
-  linkedin: "yourlinkedinprofile"
-  github: "yourgithubusername"
+  
 
 # Jekyll 设置
 remote_theme: "mmistakes/minimal-mistakes"
