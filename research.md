@@ -23,7 +23,7 @@ permalink: /research/
 ## Working Papers
 
 **"Dialect Diversity, Uncertainty and Corporate Investment Efficiency"** (with Lingtian Bu and [Meng Miao](http://sf.ruc.edu.cn/jszy/mm/index.htm))  
-*Revise & Resubmit at International Review of Finance* <!-- -->  
+*Revise & Resubmit at International Review of Finance*  <!-- -->  
 This study empirically investigates the impact of dialect diversity on corporate investment efficiency under different levels of economic policy uncertainty. Our findings reveal that local dialect diversity enhances investment efficiency during stable periods, but this advantage significantly diminishes under high economic policy uncertainty. This reduction primarily arises from underinvestment and overly cautious decision-making by fragmented management during periods of turmoil. Further analysis reveals that this reduction is exacerbated by stronger internal governance, which emphasizes checks and balances, and mitigated by stronger external governance, which focuses on supervisory power. Our results remain robust when using alternative measures of main variables and employing topography as an instrumental variable.
 [SSRN](https://ssrn.com/abstract=4910535)
 
