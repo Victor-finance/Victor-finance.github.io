@@ -5,9 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.author.name | default: "Dr. Xingjian Wang" }} - {{ site.author.employer | default: "Professor of Finance" }}</title>
-    <meta name="description" content="Academic website of {{ site.author.name | default: "Dr. Xingjian Wang" }}, {{ site.author.employer | default: "Professor of Finance" }}">
-    <meta name="author" content="{{ site.author.name | default: "Dr. Xingjian Wang" }}">
+    <title>{% if site.author.name %}{{ site.author.name }}{% else %}Dr. Xingjian Wang{% endif %} - {% if site.author.employer %}{{ site.author.employer }}{% else %}Professor of Finance{% endif %}</title>
+    <meta name="description" content="Academic website of {% if site.author.name %}{{ site.author.name }}{% else %}Dr. Xingjian Wang{% endif %}, {% if site.author.employer %}{{ site.author.employer }}{% else %}Professor of Finance{% endif %}">
+    <meta name="author" content="{% if site.author.name %}{{ site.author.name }}{% else %}Dr. Xingjian Wang{% endif %}">
     
     <style>
         :root {
@@ -338,9 +338,9 @@
                     {% endif %}
                 </div>
                 <div class="header-text">
-                    <h1>{{ site.author.name | default: "Dr. Xingjian Wang" }}</h1>
-                    <div class="title">{{ site.author.employer | default: "Professor of Finance" }}</div>
-                    <div class="title">{{ site.author.location | default: "[University Name] Business School" }}</div>
+                    <h1>{% if site.author.name %}{{ site.author.name }}{% else %}Dr. Xingjian Wang{% endif %}</h1>
+                    <div class="title">{% if site.author.employer %}{{ site.author.employer }}{% else %}Professor of Finance{% endif %}</div>
+                    <div class="title">{% if site.author.location %}{{ site.author.location }}{% else %}[University Name] Business School{% endif %}</div>
                     <div class="contact-info">
                         {% if site.author.email %}
                         <div>📧 <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
@@ -417,7 +417,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name | default: "Dr. Xingjian Wang" }}. All rights reserved.</p>
+            <p>&copy; {{ 'now' | date: "%Y" }} {% if site.author.name %}{{ site.author.name }}{% else %}Dr. Xingjian Wang{% endif %}. All rights reserved.</p>
             <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">
                 Built with modern web technologies | Hosted on GitHub Pages
             </p>
