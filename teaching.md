@@ -9,6 +9,7 @@ author_profile: false
 
 I believe that effective teaching combines rigorous academic content with practical application. My goal is to prepare students not only to understand financial theory but also to apply it in real-world situations. I emphasize critical thinking, quantitative analysis, and ethical decision-making in all my courses.
 
+<div style="display:none">
 ## Teaching Philosophy
 
 ## Teaching Approach
@@ -296,3 +297,4 @@ I welcome opportunities to collaborate with colleagues on curriculum development
 - **Student exchange programs** or study abroad opportunities
 
 Please contact me at {{ site.author.email }} with "Teaching Collaboration" in the subject line.
+</div>
