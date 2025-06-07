@@ -76,35 +76,7 @@ defaults:
     values:
       layout: default
       author_profile: false
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: default
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: default
-      author_profile: false
-      share: false
-      comments: false
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: default
-      author_profile: false
-      share: false
-      comments: false
+
 
 # SEO 设置
 locale: "en-US"
