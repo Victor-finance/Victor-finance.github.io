@@ -1,8 +1,8 @@
 # 网站基本信息
 title: "Dr. Xingjian Wang"
 description: "Professor of Finance specializing in corporate finance and behavioral finance"
-url: "https://victor-finance.github.io"
-repository: "victor-finance/victor-finance.github.io"
+url: "https://Victor-finance.github.io"
+repository: "Victor-finance/Victor-finance.github.io"
 
 # 作者信息
 author:
@@ -91,9 +91,9 @@ locale: "en-US"
 title_separator: "-"
 name: "[Your Name]"
 description: "Academic website of Dr. [Your Name], Professor of Finance"
-url: "https://yourusername.github.io"
+url: "https://Victor-finance.github.io"
 baseurl: ""
-repository: "yourusername/yourusername.github.io"
+repository: "Victor-finance/Victor-finance.github.io"
 teaser: # path of fallback teaser image
 logo: # path of logo image to display in the masthead
 masthead_title: # overrides the website title displayed in the masthead
