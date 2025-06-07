@@ -10,9 +10,9 @@ redirect_from:
 
 <div class="section" id="about">
   <h2>About</h2>
-  <p>I am {{ site.author.employer | default: "a Professor of Finance" }} at {{ site.author.location | default: "[University Name] Business School" }}, where I conduct research on corporate finance, financial markets, and behavioral finance. My work has been published in leading academic journals and has influenced both academic discourse and industry practice.</p>
+  <p>I am {{ site.author.employer | default: "a Professor of Finance" }} at {{ site.author.location | default: "[University Name] Business School" }}, where I conduct research on corporate finance, ESG, and political economy. </p>
   
-  <p>Prior to joining {{ site.author.location | split: ',' | first | default: "[University Name]" }}, I held positions at [Previous Institution] and worked as a consultant for several financial institutions. I received my Ph.D. in Finance from [University] and hold professional certifications including the CFA designation.</p>
+  <p>I also work as a research associate at Institute of International M&As and Investment, Renmin University of China. I received my Ph.D. in Financial Engineering from Renmin University of China.</p>
 
   <p>My current research focuses on understanding how technological innovation, regulatory changes, and behavioral factors shape financial markets and corporate decision-making. I am particularly interested in the intersection of finance and technology, exploring how FinTech innovations are transforming traditional financial services.</p>
 
@@ -82,15 +82,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="section" id="recent-news">
-  <h2>Recent News</h2>
-  <ul style="color: var(--text-light); line-height: 1.8;">
-    <li><strong>June 2025:</strong> New paper accepted at Journal of Finance</li>
-    <li><strong>May 2025:</strong> Invited speaker at AFA Annual Meeting</li>
-    <li><strong>April 2025:</strong> Received Teaching Excellence Award</li>
-    <li><strong>March 2025:</strong> Research featured in Financial Times</li>
-  </ul>
-</div>
+
 
 <style>
 /* 研究兴趣网格 */
