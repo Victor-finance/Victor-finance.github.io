@@ -16,7 +16,7 @@ permalink: /research/
 - **"Pandemic Effect on Corporate Financial Asset Holdings: Precautionary or Return-chasing?"** (with [Haoyu Gao](http://sf.ruc.edu.cn/info/1419/9668.htm) and [Huiyu Wen](https://glxy.gdut.edu.cn/info/1292/29774.htm))  
   *Research in International Business and Finance*, 2022, 62:101750.  
   We empirically investigate whether and how the COVID-19 pandemic affects corporate financial asset holdings. We find that firms with higher pandemic exposure are less likely to hold financial assets. Mechanism analyses suggest that the return-chasing rationale dominates the precautionary motive concerning the pandemic effect on corporate financial asset holdings. Furthermore, firms prefer to liquidate highly liquid financial assets to fill the pandemic-induced liquidity shortage. This study contributes to the economic consequences of the COVID-19 pandemic regarding corporate portfolio choice, and sheds light on corporate resilience to crises.
- [Journal Link]([https://www.sciencedirect.com/science/article/pii/S1572308923000384](https://www.sciencedirect.com/science/article/pii/S0275531922001374)) [SSRN](https://ssrn.com/abstract=4144122)
+ [Journal Link](https://www.sciencedirect.com/science/article/pii/S0275531922001374) [SSRN](https://ssrn.com/abstract=4144122)
 
 ---
 
