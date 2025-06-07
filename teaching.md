@@ -1,15 +1,17 @@
 ---
-layout: single
+layout: default
 title: "Teaching"
 permalink: /teaching/
+author_profile: false
 ---
 
-# Teaching Philosophy
+# Teaching
 
 I believe that effective teaching combines rigorous academic content with practical application. My goal is to prepare students not only to understand financial theory but also to apply it in real-world situations. I emphasize critical thinking, quantitative analysis, and ethical decision-making in all my courses.
 
-## Teaching Approach
+## Teaching Philosophy
 
+## Teaching Approach
 ### Interactive Learning
 I use case studies, group discussions, and real-time market analysis to engage students actively in the learning process. Students work with actual financial data and current market events to understand how theory translates into practice.
 
