@@ -24,7 +24,7 @@ We empirically investigate whether and how the COVID-19 pandemic affects corpora
 
 ## Working Papers
 
-- **"公募基金持股与企业绿色创新——来自中证800/1000指数断点回归的证据"** (with 徐泽林, 林雨晨 and [任幸子](https://jrx.cueb.edu.cn/szll/jsml/8be04f4f81144a9a926feb3e2d90aad7.htm))  
+- **"公募基金持股与企业绿色创新——来自中证800/1000指数断点回归的证据"** (with [徐泽林](https://jgxy.fzu.edu.cn/info/1043/22411.htm), 林雨晨 and [任幸子](https://jrx.cueb.edu.cn/szll/jsml/8be04f4f81144a9a926feb3e2d90aad7.htm))  
 *Presented at China International Conference in Finance 2024 (CICF)*  
 在“双碳”目标与高质量发展的背景下，绿色创新成为企业转型升级的关键，而金融支持的作用日益凸显。基于2014年至2019年中证800指数和中证1000指数成份股定期调整的准自然实验，本文运用断点回归方法，探究公募基金持股对上市公司绿色创新的影响及其作用机制。研究发现，公募基金持股比例的外生增加显著提升了上市公司的绿色创新水平。机制分析发现，一方面，公募基金通过互动式监督强化外部治理，促使管理层关注绿色发展和技术创新，从而提升企业开展绿色创新的“意愿”；另一方面，公募基金持股能够降低信息不对称，提高股票流动性并缓解融资约束，为企业绿色创新提供资金支持，增强企业绿色创新“能力”。公募基金作为耐心资本的重要组成部分，在推动科技金融与绿色金融发展、助力经济高质量发展中具有重要的理论价值和实践意义。[CICF2024](https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=CICF2024&paper_id=1354)<br><br>
 
@@ -47,7 +47,7 @@ This paper investigates the role of government-enterprise collusion in shaping f
 
 - **"Manager Sentiment and Corporate Capital Allocation"** (with Xiaoming Liu and [Changyun Wang](http://sf.ruc.edu.cn/info/1269/8125.htm))<br><br>  
 
-- **"Do Local Human Capital Policies Affect Venture Capital Investments? Evidence from Search Engines in China"** (with Zelin Xu and [Teng Zhong](https://sbf.uibe.edu.cn/szdw/xyjs/fjszc/a3139c035ed84961a9c3caa0d90eec3a.htm))<br><br>  
+- **"Do Local Human Capital Policies Affect Venture Capital Investments? Evidence from Search Engines in China"** (with [Zelin Xu](https://jgxy.fzu.edu.cn/info/1043/22411.htm) and [Teng Zhong](https://sbf.uibe.edu.cn/szdw/xyjs/fjszc/a3139c035ed84961a9c3caa0d90eec3a.htm))<br><br>  
 
 <!-- - **"Housing Price Expectations and Community Participation: Evidence from Urban China"** (with [Meng Miao](http://sf.ruc.edu.cn/jszy/mm/index.htm))  
 [Accepted by APSA2025]
