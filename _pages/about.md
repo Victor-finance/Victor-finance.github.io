@@ -6,7 +6,7 @@ subtitle: In me the tiger sniffs the rose.
 
 profile:
   align: right
-  image: prof_pic2.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>No. 121 Zhangjialukou,</p>
