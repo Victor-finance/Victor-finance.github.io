@@ -9,7 +9,6 @@ profile:
   image: prof_pic2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    # <p>555 your office number</p>
     <p>No. 121 Huaxiang Zhangjialukou,</p>
     <p>Fengtai, Beijing, 100070</p>
 
