@@ -5,7 +5,7 @@ permalink: /
 subtitle: In me the tiger sniffs the rose.
 
 profile:
-  align: left
+  align: right
   image: prof_pic2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
