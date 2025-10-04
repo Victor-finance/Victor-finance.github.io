@@ -12,7 +12,7 @@ profile:
     <p>No. 121 Zhangjialukou,</p>
     <p>Fengtai, Beijing, 100070</p>
 
-selected_papers: flase # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
