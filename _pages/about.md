@@ -9,8 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>No. 121 Zhangjialukou,</p>
-    <p>Fengtai, Beijing, 100070</p>
+    <p>Photographed at</p>
+    <p>Queen Elizabeth Park,</p>
+    <p>Vancouver</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
