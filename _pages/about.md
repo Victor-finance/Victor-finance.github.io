@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: *In me the tiger sniffs the rose.*
+subtitle: In me the tiger sniffs the rose.
 
 profile:
   align: right
