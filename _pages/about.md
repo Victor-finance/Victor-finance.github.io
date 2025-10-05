@@ -8,12 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-  <div style="text-align: center;">
-    <p>Photographed at</p>
-    <p>Queen Elizabeth Park,</p>
-    <p>Vancouver</p>
-  </div>
+  more_info: 
+  <p>Photographed at</p> 
+  <p>Queen Elizabeth Park,</p> 
+  <p>Vancouver</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
