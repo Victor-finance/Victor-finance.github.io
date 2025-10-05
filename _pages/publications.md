@@ -7,14 +7,31 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+## Peer-Reviewed Journal Articles
 
-{% bibliography %}
+<div class="publications">
+{% bibliography --query @article %}
+</div>
+
+---
+
+## Working Papers
+
+<div class="publications">
+{% bibliography --query @unpublished %}
+</div>
+
+---
+
+## Work in Progress
+
+<div class="publications">
+{% bibliography --query @misc %}
+</div>
+
+---
 
 </div>
