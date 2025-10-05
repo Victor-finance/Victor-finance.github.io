@@ -37,7 +37,7 @@ nav_order: 2
 <script>
 const authorUrls = {
   "Wang, Xingjian": "https://victor-finance.github.io",
-  "Han, Haozhe": "https://come.tju.edu.cn/info/1091/7801.htm",
+  "Haozhe Han": "https://come.tju.edu.cn/info/1091/7801.htm",
   "Yao, Chi": "https://www.suibe.edu.cn/finance/yc/list.htm",
   "Wang, Changyun": "http://sf.ruc.edu.cn/info/1269/8125.htm",
   "Gao, Haoyu": "https://haoyugao.top",
