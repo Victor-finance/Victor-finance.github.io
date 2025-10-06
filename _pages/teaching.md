@@ -2,11 +2,24 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I believe that effective teaching combines rigorous academic content with practical application. My goal is to prepare students not only to understand financial theory but also to apply it in real-world situations. I emphasize critical thinking, quantitative analysis, and ethical decision-making in all my courses.
 
-Organize your courses by years, topics, or universities, however you like!
+# Undergraduate
+
+## The Theory and Practice of ESG
+- **Credits**: 3  
+- **Semesters Taught**: Fall 2024, 2025
+
+## Management
+- **Credits**: 2  
+- **Semesters Taught**: Fall 2024, 2025
+
+# Graduat
+## Investments (MBA)
+**Credits**: 2    
+**Semesters Taught**: Fall 2024, 2025
