@@ -19,7 +19,7 @@ I believe that effective teaching combines rigorous academic content with practi
 - **Credits**: 2  
 - **Semesters Taught**: Fall 2024, 2025
 
-# Graduat
+# Graduate
 ## Investments (MBA)
 **Credits**: 2    
 **Semesters Taught**: Fall 2024, 2025
