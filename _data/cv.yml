@@ -6,7 +6,7 @@
     - name: Email
       value: wxj_finance@outlook.com
     - name: Languages
-      value: English, Chinese
+      value: English, Mandarin
 
 
 - title: Education
@@ -45,45 +45,85 @@
 - title: Publications
   type: time_table
   contents:
-    - title: Paper Title
-      year: 2024
-      description: Journal Name, Volume(Issue), Pages
+    - title: Pandemic effect on corporate financial asset holdings: Precautionary or return-chasing? (with Gao, Haoyu and Wen, Huiyu)
+      year: 2022
+      description: Research in International Business and Finance, 62, 101750.
+    
+    - title: Monetary policy uncertainty and corporate cash holdings: Evidence from China (with Han, Haozhe)
+      year: 2023
+      description: Journal of Financial Stability, 67, 101138.
+    
+     - title: 监管强度预期与上市公司盈余管理——基于证监会随机抽查威慑作用的研究 Perceived Regulation Intensity and Earnings Management of Listed Firms——A research on the deterrent effect of the random spot check program by CSRC (with Wang, Changyun and Li, Yunhong and Tian, Rui)
+      year: 2023
+      description: 审计研究 Auditing Research, 233(03), 123-135.  
 
 - title: Working Papers
   type: list
   contents:
-    - Paper 1 title (with coauthors)
-    - Paper 2 title
+    - 公募基金持股与企业绿色创新——来自中证800/1000指数断点回归的证据 (with Xu, Zelin and Lin, Yuchen and Ren, Xingzi)
+    - Dialect Diversity, Uncertainty and Corporate Investment Efficiency (with Bu, Lingtian and Miao, Meng)
+    - The Political Economy of ESG: How Government Procurement Shapes Corporate Sustainability in China (with Tang, Huoqing and Zhu, Guangshun)
+    - How Monetary Policy Uncertainty Shapes Trade Credit Strategies: Evidence from China (with Han, Haozhe and Yao, Chi)
+    - Digital Transformation and the Market Value of Cash: Evidence from China (with Xuan, Yubing and Zhong, Teng)
 
-- title: Conference Presentations
+- title: Work in Progress
+  type: list
+  contents:
+    - Housing Price Expectations and Community Participation: Evidence from Urban China (with Miao, Meng)
+    - Grassroot Election and Democratic Attitude: Evidence based on China Homeowner Association (with Miao, Meng)
+    - Voting for Value: The Impact of Grassroots Democracy on Housing Prices in Urban China (with Bu, Lingtian and Miao, Meng)
+    - Do Local Human Capital Policies Affect Venture Capital Investments? Evidence from Search Engines in China (with Xu, Zelin and Zhong, Teng)
+    - The Horizontal Agency Conflicts and Corporate Cash Holdings: Evidence from Share Pledges in China (with Wang, Changyun and Zeng, Jianyu)
+    - Manager Sentiment and Corporate Capital Allocation (with Liu, Xiaoming and Wang, Changyun)
+
+- title: Conference Presentations (selected)
   type: time_table
   contents:
+    - title: The 22nd Chinese Finance Annual Meeting (CFAM)
+      year: 2025
+      description: Nanjing, China (scheduled)
+      
+    - title: American Political Science Assosiation (APSA) Annual Meeting
+      year: 2025
+      description: Vancouver, Canada
+      
+    - title: 2025 Financial Markets and Policies Conference
+      year: 2025
+      description: Beijing, China
+      
+    - title: China International Conference in Finance (CICF) 2024
+      year: 2024
+      description: Beijing, China
+      
+    - title: 2024 CFRN Young Financial Scholars Annual Conference
+      year: 2024
+      description: Beijing, China
+      
     - title: 12th China Annual Conference on Investment Studies
       year: 2024
       description: Shanghai, China
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2023
-      items: 
-        - Outstanding Dissertation Award
-
 - title: Teaching
   type: time_table
   contents:
-    - title: Course Name
-      year: 2024
-      description: Undergraduate/Graduate level
-
+    - title: The Theory and Practice of ESG
+      year: 2024, 2025
+      description: Undergraduate level
+    - title: Management
+      year: 2024, 2025
+      description: Undergraduate level
+    - title: Investments
+      year: 2024, 2025
+      description: MBA level
+      
 - title: Skills
   type: list
   contents:
     - <u>Programming:</u> Stata, Python, R, Matlab
-    - <u>Languages:</u> English (fluent), Chinese (native)
+    - <u>Languages:</u> English (fluent), Mandarin (native)
 
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Badminton, Music, Chinese Tea, etc.
