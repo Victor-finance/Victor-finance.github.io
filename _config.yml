@@ -45,7 +45,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: false
+posts_in_search: true
 bib_search: true
 
 # Dimensions
@@ -386,7 +386,7 @@ enable_project_categories: true # enables categorization of projects into multip
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
-
+enable_command_palette: false 
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
