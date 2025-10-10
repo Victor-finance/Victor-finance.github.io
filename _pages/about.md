@@ -35,6 +35,6 @@ My current research focuses on understanding how corporate and individual decisi
 
 I received my Ph.D. in Financial Engineering and M.A. in Finance from *Renmin University of China*, and B.S. in Applied Mathematics and Finance from *Central University of Finance and Economics*.
 
-You can find me at [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=YvSEvQsAAAAJ), [Research Gate](https://www.researchgate.net/profile/Xingjian-Wang-6?ev=hdr_xprf), [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3063084) and [ORCID](https://orcid.org/0000-0002-8368-5150).
+You can find me at [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=YvSEvQsAAAAJ), [ResearchGate](https://www.researchgate.net/profile/Xingjian-Wang-6?ev=hdr_xprf), [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3063084) and [ORCID](https://orcid.org/0000-0002-8368-5150).
 
 Contact me: **wxj_finance[at]outlook.com**
